@@ -30,7 +30,9 @@ if (arr5.includes(finnd)){
 }else{
     console.log("the search was not found");
 }
-
+let w = [273,4,4,55,5,6,6,788]
+let sorty = w.sort((a,b)=>-a+b);
+console.log(sorty)
 
 
 
